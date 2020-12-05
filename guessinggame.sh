@@ -3,7 +3,6 @@ echo " "
 echo "Take a guess about how many files are in this directory"
 
 file_number=$(ls -l | egrep -v "drw|total" | wc -l)
-echo $file_number
 
 function get_guess {
 	echo "Enter your guess: "
