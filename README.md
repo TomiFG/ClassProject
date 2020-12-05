@@ -1,5 +1,5 @@
-#The Guessing Game
-###By Tomas Gregoret
+# The Guessing Game
+### By Tomas Gregoret
 
 Make was run on: 
 
