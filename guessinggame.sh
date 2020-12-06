@@ -1,6 +1,5 @@
-echo "Welcome to The Guessing Game"
-echo " "
-echo "Take a guess about how many files are in this directory"
+echo "Welcome to The Guessing Game\n"
+echo "Try to guess the number of files in this directory"
 
 file_number=$(ls -l | egrep -v "drw|total" | wc -l)
 
